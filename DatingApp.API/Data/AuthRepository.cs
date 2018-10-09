@@ -24,6 +24,8 @@ namespace DatingApp.API.Data
             {
                 return null;
             }
+
+            return user;
         }
 
         private bool VerifyPasswordHash(string password, byte[] passwordHash, byte[] passwordSalt)
